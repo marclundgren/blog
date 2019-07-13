@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://marclundgren.github.io/gatsby-starter-lumen/',
+  url: 'https://eloquent-bardeen-30f322.netlify.com',
   pathPrefix: '/gatsby-starter-lumen',
   title: 'Blog by Marc Lundgren',
   subtitle: 'Developer, Hacker, Driving enthusiast',
