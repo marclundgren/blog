@@ -29,11 +29,11 @@ module.exports = {
     bio: 'I build Web applications, React Native, Node and anything else with JavaScript.',
     contacts: {
       email: 'marclundgren2.0@gmail.com',
-      // telegram: '#',
+      telegram: '#',
       twitter: '@then_marc_says',
-      github: 'marclundgren'
-      // rss: '#',
-      // vkontakte: '#'
+      github: 'marclundgren',
+      rss: '#',
+      vkontakte: '#'
     }
   }
 };
