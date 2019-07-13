@@ -1,14 +1,14 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  url: 'https://marclundgren.github.io/gatsby-starter-lumen/',
+  pathPrefix: '/gatsby-starter-lumen',
+  title: 'Blog by Marc Lundgren',
+  subtitle: 'Developer, Hacker, Driving enthusiast',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: '',
   menu: [
     {
       label: 'Articles',
@@ -24,16 +24,16 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Marc Lundgren',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'I build Web applications, React Native, Node and anything else with JavaScript.',
     contacts: {
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vkontakte: '#'
+      email: 'marclundgren2.0@gmail.com',
+      // telegram: '#',
+      twitter: '@then_marc_says',
+      github: 'marclundgren'
+      // rss: '#',
+      // vkontakte: '#'
     }
   }
 };
