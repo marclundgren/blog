@@ -78,13 +78,6 @@
   Link: </blog/styles-8e97366836d1125a8ada.js>; rel=preload; as=script
   Link: </blog/1-7c48afc4d144f549fbd1.js>; rel=preload; as=script
   Link: </blog/component---src-templates-not-found-template-js-fa2eecee2a7ebfa2c133.js>; rel=preload; as=script
-/blog/pages/about/
-  Link: </blog/webpack-runtime-e40f4dede397b588a3e6.js>; rel=preload; as=script
-  Link: </blog/styles-8e97366836d1125a8ada.js>; rel=preload; as=script
-  Link: </blog/app-287a25c34ae7a5e0cba5.js>; rel=preload; as=script
-  Link: </blog/styles-8e97366836d1125a8ada.js>; rel=preload; as=script
-  Link: </blog/1-7c48afc4d144f549fbd1.js>; rel=preload; as=script
-  Link: </blog/component---src-templates-page-template-js-a8d67d2540a35bd782aa.js>; rel=preload; as=script
 /blog/pages/contacts/
   Link: </blog/webpack-runtime-e40f4dede397b588a3e6.js>; rel=preload; as=script
   Link: </blog/styles-8e97366836d1125a8ada.js>; rel=preload; as=script
@@ -92,15 +85,14 @@
   Link: </blog/styles-8e97366836d1125a8ada.js>; rel=preload; as=script
   Link: </blog/1-7c48afc4d144f549fbd1.js>; rel=preload; as=script
   Link: </blog/component---src-templates-page-template-js-a8d67d2540a35bd782aa.js>; rel=preload; as=script
-/blog/posts/perfecting-the-art-of-perfection/
+/blog/pages/about/
   Link: </blog/webpack-runtime-e40f4dede397b588a3e6.js>; rel=preload; as=script
   Link: </blog/styles-8e97366836d1125a8ada.js>; rel=preload; as=script
   Link: </blog/app-287a25c34ae7a5e0cba5.js>; rel=preload; as=script
   Link: </blog/styles-8e97366836d1125a8ada.js>; rel=preload; as=script
   Link: </blog/1-7c48afc4d144f549fbd1.js>; rel=preload; as=script
-  Link: </blog/2-47d9ea6db4af23fcc613.js>; rel=preload; as=script
-  Link: </blog/component---src-templates-post-template-js-30146c5af1fdcf133607.js>; rel=preload; as=script
-/blog/posts/the-origins-of-social-stationery-lettering
+  Link: </blog/component---src-templates-page-template-js-a8d67d2540a35bd782aa.js>; rel=preload; as=script
+/blog/posts/when-slicing-a-sunflower-goes-wrong/
   Link: </blog/webpack-runtime-e40f4dede397b588a3e6.js>; rel=preload; as=script
   Link: </blog/styles-8e97366836d1125a8ada.js>; rel=preload; as=script
   Link: </blog/app-287a25c34ae7a5e0cba5.js>; rel=preload; as=script
@@ -116,7 +108,15 @@
   Link: </blog/1-7c48afc4d144f549fbd1.js>; rel=preload; as=script
   Link: </blog/2-47d9ea6db4af23fcc613.js>; rel=preload; as=script
   Link: </blog/component---src-templates-post-template-js-30146c5af1fdcf133607.js>; rel=preload; as=script
-/blog/posts/when-slicing-a-sunflower-goes-wrong/
+/blog/posts/perfecting-the-art-of-perfection/
+  Link: </blog/webpack-runtime-e40f4dede397b588a3e6.js>; rel=preload; as=script
+  Link: </blog/styles-8e97366836d1125a8ada.js>; rel=preload; as=script
+  Link: </blog/app-287a25c34ae7a5e0cba5.js>; rel=preload; as=script
+  Link: </blog/styles-8e97366836d1125a8ada.js>; rel=preload; as=script
+  Link: </blog/1-7c48afc4d144f549fbd1.js>; rel=preload; as=script
+  Link: </blog/2-47d9ea6db4af23fcc613.js>; rel=preload; as=script
+  Link: </blog/component---src-templates-post-template-js-30146c5af1fdcf133607.js>; rel=preload; as=script
+/blog/posts/the-origins-of-social-stationery-lettering
   Link: </blog/webpack-runtime-e40f4dede397b588a3e6.js>; rel=preload; as=script
   Link: </blog/styles-8e97366836d1125a8ada.js>; rel=preload; as=script
   Link: </blog/app-287a25c34ae7a5e0cba5.js>; rel=preload; as=script
