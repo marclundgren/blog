@@ -2,7 +2,7 @@
 
 module.exports = {
   url: 'https://eloquent-bardeen-30f322.netlify.com',
-  pathPrefix: '/gatsby-starter-lumen',
+  pathPrefix: '/blog',
   title: 'Blog by Marc Lundgren',
   subtitle: 'Developer, Hacker, Driving enthusiast',
   copyright: '© All rights reserved.',
