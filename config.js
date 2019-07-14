@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://eloquent-bardeen-30f322.netlify.com',
   pathPrefix: '/blog',
-  title: 'Blog by Marc Lundgren',
+  title: 'Things I\'ve learned',
   subtitle: 'Developer, Hacker, Driving enthusiast',
   copyright: '© All rights reserved.',
   disqusShortname: '',
@@ -29,11 +29,11 @@ module.exports = {
     bio: 'I build JavaScript applications for the web, my toolbox and the cloud.',
     contacts: {
       email: 'marclundgren2.0@gmail.com',
-      telegram: '#',
+      telegram: 'marclundgren',
       twitter: '@then_marc_says',
       github: 'marclundgren',
       rss: '#',
-      vkontakte: '#'
+      vkontakte: 'id553237313'
     }
   }
 };
