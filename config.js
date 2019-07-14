@@ -25,7 +25,7 @@ module.exports = {
   ],
   author: {
     name: 'Marc Lundgren',
-    photo: '/photo.jpg',
+    photo: '/canada-prof.png',
     bio: 'I build Web applications, React Native, Node and anything else with JavaScript.',
     contacts: {
       email: 'marclundgren2.0@gmail.com',
