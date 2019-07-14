@@ -26,37 +26,37 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-f87dd608abb2a59729f2.js"
+    "url": "webpack-runtime-167f4f0f6033bf2671a9.js"
   },
   {
-    "url": "styles.30fd1c1da37086dd91be.css"
+    "url": "styles.f5fdee0ee3540d1b56d4.css"
   },
   {
     "url": "styles-8e97366836d1125a8ada.js"
   },
   {
-    "url": "app-d763926518be143d338a.js"
+    "url": "app-287a25c34ae7a5e0cba5.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-e348a356b0bf93ff0bd6.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "68c98d7590cefdb4afe5b3cfa82fc1f1"
+    "revision": "7a3cc60a6ca7670e0bd3d53bfed47a55"
   },
   {
     "url": "1-7c48afc4d144f549fbd1.js"
   },
   {
-    "url": "component---src-templates-not-found-template-js-39b2bbf771bc2429edaf.js"
+    "url": "component---src-templates-not-found-template-js-8c6d97effbf339ae91b7.js"
   },
   {
     "url": "page-data/404.html/page-data.json",
-    "revision": "49559a92e737e0558af7c709bcbb460f"
+    "revision": "80160f677a715dbf55192355d72521ff"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "f16532bd65b27c006bb0187122a7ddfd"
+    "revision": "28393ceb2be78f17e7933c26504c3302"
   },
   {
     "url": "manifest.json",
@@ -86,7 +86,7 @@ const navigationRoute = new workbox.routing.NavigationRoute(({ event }) => {
   return idbKeyval.get(WHITELIST_KEY).then((customWhitelist = []) => {
     // Respond with the offline shell if we match the custom whitelist
     if (customWhitelist.includes(pathname)) {
-      const offlineShell = `/gatsby-starter-lumen/offline-plugin-app-shell-fallback/index.html`
+      const offlineShell = `/blog/offline-plugin-app-shell-fallback/index.html`
       const cacheName = workbox.core.cacheNames.precache
 
       return caches.match(offlineShell, { cacheName }).then(cachedResponse => {
@@ -158,7 +158,7 @@ const messageApi = {
 
     pathnames = pathnames.map(({ pathname, includesPrefix }) => {
       if (!includesPrefix) {
-        return `/gatsby-starter-lumen${pathname}`
+        return `/blog${pathname}`
       } else {
         return pathname
       }
