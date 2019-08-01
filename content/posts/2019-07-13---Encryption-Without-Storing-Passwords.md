@@ -5,12 +5,13 @@ template: "post"
 draft: false
 slug: "/posts/encryption-without-storing-passwords/"
 category: "Cryptography"
+description: "How to generate encrypted keys without storing passwords anywhere."
 tags:
   - "JavaScript"
   - "Cryptography"
   - "NodeJS"
   - "Password Security"
-description: "How to generate encrypted keys without storing passwords anywhere."
+  - "Software"
 
 ---
 - [Cryptography overview](#Cryptography-overview)
@@ -22,7 +23,7 @@ description: "How to generate encrypted keys without storing passwords anywhere.
 
 ## Cryptography overview
 
-Cryptography is a tool or a technique used to __communicate privately__ between two parties, a sender and a receiver. Alice and Bob denote a pair of hypothetical individuals attempting to send and receive transmissions without that pesty Carol intercepting, or even worse impersonating, messages.
+Cryptography is a tool or a technique used to __communicate privately__ between two parties, a sender and a receiver. [Alice and Bob](http://cryptocouple.com/) denote a pair of hypothetical individuals attempting to send and receive transmissions without that pesty Carol intercepting, or even worse impersonating, messages.
 
 Encryption is the cornerstone of a cryptographic solution. An encrypted message will appear unrecognizable from the original and be decrypted and identical to the original message. [Public Key Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) is a strategy that uses encryption along with Public and Private keys. The owner of keys should be able to use both the receiver's public key and the owner's private key to generate a hash function that encrypts the sender's message and decrypts the message for the recipient.
 

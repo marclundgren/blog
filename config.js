@@ -5,7 +5,7 @@ module.exports = {
   pathPrefix: '/blog',
   title: 'Things I\'ve learned',
   subtitle: 'Developer, Hacker, Driving enthusiast',
-  copyright: '© All rights reserved.',
+  copyright: '',
   disqusShortname: '',
   postsPerPage: 4,
   googleAnalyticsId: '',

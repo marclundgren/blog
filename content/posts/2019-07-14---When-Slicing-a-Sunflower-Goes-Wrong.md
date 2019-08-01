@@ -5,9 +5,10 @@ template: "post"
 draft: false
 slug: "/posts/when-slicing-a-sunflower-goes-wrong/"
 category: "JavaScript"
+description: "JavaScript has a unicode problem. Splitting strings can cause trouble."
 tags:
   - "JavaScript"
-description: "JavaScript has a unicode problem. Splitting strings can cause trouble."
+  - "Software"
 ---
 
 If you've ever built a UI that has a responsive width and fixed height chances are you've had to consider truncating strings with variable length. [`text-overflow`](https://css-tricks.com/almanac/properties/t/text-overflow/) is a property of CSS that can prevent a string from breaking out of its container by replacing the bits of the string that won't fit in the container with some ellipsis. You know...these things...
