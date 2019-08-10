@@ -14,13 +14,13 @@ tags:
 
 [__Don't Repeat Yourself (DRY)__](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) in software development typically refers to code abstraction. [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) lends itself to DRY code by using abstraction layers to reduce functional repetition. I wrote [an article](https://medium.com/@then_marc_says/functional-javascript-inheritance-and-cats-7850c48812b0) about this a long time ago that demonstrates OOP abstraction.
 
-Staying DRY while writing code is great and all, but there's much more to software than the code itself. At the time of writing this article, no nueral interface exists that will allow us conceptualize and compose software without our fingers hammering away at our keyboards.
+Staying DRY while writing code is great and all, but there's much more to writing software than the code itself. At the time of writing this article, no nueral interface exists that will allow us conceptualize and compose software with telepathy, so we're forced to hammer away at our keyboards for now.
 
 ![Typing and Coffee Are Great /s](../../static/giphy.gif)
 
 ## Repetition Reduction
 
-Here are a some of the non-code but software-related actions we take while developing software. The great [Brian Chan](https://github.com/brianchandotcom) and [Nate Cavanaugh](https://github.com/natecavanaugh) blew my mind (and continue to do so) with the amount of repetition reduction they were capable of during my time at [Liferay](https://www.liferay.com) in 2012. As a junior developer, witnessing their development workflow was truly a sight to behold. Here is a list of some of their incredible task management and repetition reduction:
+Here are a some of the non-code but software-related actions we take while developing software. A few years ago, I was fortunate enough to be mentored by a couple of incredible developers: [Brian Chan](https://github.com/brianchandotcom) and [Nate Cavanaugh](https://github.com/natecavanaugh). The amount of repetition reduction they were capable was mind-blowing. Here is a list of some of their incredible task management and repetition reduction:
 
 + Typing
 + Mouse pointing
@@ -33,25 +33,29 @@ Here are a some of the non-code but software-related actions we take while devel
 + Pattern Matching
 + Code Building
 
-Typing? Mouse Clicking? Yeah. Unless interacting directly with the UI we were developing, Brian and Nate would make a few precise keystrokes to perform their tasks at a high-throughput rate. I could write a book on everything amazing I witnessed while working for Liferay, and at least an entire chapter would be dedicated to each of these guy's workflow and high-throughput.
-
-I remember realizing the irony that Nate, the UI Director went out of his way to write custom github terminal integration scripts that would save him time by __avoiding the github.com UI__. He had shortcuts that increased his productivity for tasks like:
+Typing? Mouse Clicking? Yeah. Unless interacting directly with the UI we were developing, Brian and Nate would make a few precise keystrokes to perform their tasks at a high-throughput rate. I could write a book on everything amazing I witnessed while working for Liferay, and at least an entire chapter would be dedicated to each of these guy's workflow and high-throughput. Ironically, Nate (our UI Director) went out of his way to write custom github terminal integration scripts that would save him time by __avoiding the github.com UI__. He had shortcuts that increased his productivity for GitHub tasks like:
 
 + Discoverying new pull requests to review
 + Checking out pull request branches
 + Updating JIRA ticket status
++ Commenting on github pull requests with an updated status
++ loading his text editor with all files that have changed in a pull-request branch
 
 This descision wasn't to avoid a bad UI; in 2012 [github.com](https://github.com) was a terrific interface for sharing and collaborating on open-source software projects. But Liferay was no ordinary open source project, in fact it had hundreds of developers worldwide contributing daily to several git respositories. [Eduardo Lundgren](https://github.com/eduardolundgren) would automate workflow, and open-source their solutions for other Liferay Developers. It was an ecosystem of true open-source were we all contribute and improve and share those contributions that I would describe as an example of a positive feedback loop.
 
 ## APM (Actions Per Minute)
 
-My tip to increase productivity is going to sound obvious, but simply perform more actions in less time. Let's take a very common action we all perform every time we're on the computer. Context-switching, specificaly Application-switching.
+Okay, My recommendation for all devlopers to increase productivity is going to sound obvious, but here it is. Simply perform more actions in less time. IOW increase throughput by maximizing each moment's potential and minimizing the amount of time spent on a task that can be macro'd or automated. Let's take a very common action we all perform every time we're on the computer. Context-switching, specificaly Application-switching.
 
 Situation: You're writing code on your 15inch laptop, so there's not much room for horizontal or vertical window stacking. You're currently editing a styles.css file for a website you're running locally from your terminal. You make a change and want to see what the site looks like after the update. Are you a point and clicker or a keyboard stroker?
 
 ![expanding brain](../../static/35xnjn.jpg)
 
-A challenge for you: pretend like you don't have a mouse. Learn keyboard shortcuts or configure your own. One of my most valued keyboard shortcut applications is [Thor](https://apps.apple.com/cn/app/thor/id1120999687?l=en&mt=12), an open-source, easy-to-install global application hot key binding app. I bind the following applications to these mappings:
+Even better? Enable the use of a [live server](http://tapiov.net/live-server/) that will automaticaly reload after a file has changed, saving you from manually reloading a page. VS Code has a [live-server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) that I use frequently.
+
+## Challenge yourself, unplug your mouse
+
+Step 1. Pretend like you don't have a mouse/trackpacd. Step 2. Learn every keyboard shortcuts that you find useful for every application you use, as well as your operating system. Step 3. Configure your own keyboard shortcuts to fill any gaps not provided by either your application or OS. Many applications will allow you to customize keyboard shortcuts. Mac ofters. [Automator](https://support.apple.com/guide/automator/welcome/mac) can be used to customize keyboard shortcuts. One of my most valued keyboard shortcut applications is [Thor](https://apps.apple.com/cn/app/thor/id1120999687?l=en&mt=12), an open-source, easy-to-install global application hot key binding app. I bind the following applications to these mappings:
 
 __CMD + 1__ File Manager (Finder)
 
@@ -64,6 +68,8 @@ __CMD + 4__ Code Editor (VS Code)
 __CMD + 5__ Message App (Slack)
 
 __CMD + ~__ Terminal (iTerm)
+
+[Alfred](https://www.alfredapp.com/) allows application key-binding as well as many other very useful workflow productivity tools.
 
 By using a global hotkey to focus an application window, you're reducing steps you'd otherwise take to accomplish this micro-task. It might only save you take 1-2 seconds each time, but that can quickly add if you find yourself switching from your editor to your browser often. As a UI developer, I find myself doing this a lot. And any developer might fight the need to load a browser to search for solutions to an given problem they're currentely creating a solution for.
 
@@ -95,12 +101,14 @@ The most important keybindings to learn for a code editor, in no particular orde
 
 One of the first keyboard shortcut classes to master is text manipulation. Review and familiarize your self with these very practical shortcuts. These usually apply operating system-specfic shortcuts and should behave the same in any application on your computer.
 
-+ __CMD + Z__ Undo
-+ __CMD + Y__ Redo
-+ __CMD + X__ Cut
-+ __CMD + C__ Copy
-+ __CMD + V__ Paste
-+ __CMD + A__ Select All
++ __CMD + Z__: Undo
++ __CMD + Y__: Redo
++ __CMD + X__: Cut
++ __CMD + C__: Copy
++ __CMD + V__: Paste
++ __CMD + A__: Select All
++ __CMD + F__: Open a "Find all" pattern search
++ __CMD + SHIFT + F__: Open a "Find all" pattern search for a project
 
 ## __CMD + A__ Select All
 
@@ -132,9 +140,17 @@ Enter __OPTION + →__ and __OPTION + ←__
 
 ![keyboard-go-fast](../../static/media/keyboard-go-faster.gif)
 
+Now you're cooking with grease!
+
 Using __OPTION + →__ and __OPTION + ←__ the cursor will jump from the beginning of a word to the end, then to the beginning of the next word. This is the centerpeice of what makes a good multile line macro transformation. For now, just trust me and get used to using this shortcut over clicking your target or holding the arrow keys until you get to where you need to go.
 
 ![option-arrow-horizontal](../../static/media/option-arrow-horizontal.gif)
+
+Okay. Get ready for LUDICROUS SPEED!
+
+## __CMD + →__ and __CMD + ←__
+
+![keyboard-go-LUDICROUS](../../static/media/keyboard-go-LUDICROUS.gif)
 
 ## Moving and Shifting Blocks
 
@@ -213,4 +229,19 @@ const calandarWeek = [
 4. __OPTION + →__ until the cursors are on the weekday values
 5. use __SHIFT + →__ three times and select the first three characters of each weekday
 6. __CMD + C__ to copy
-7. __OPTION + →__
+7. __OPTION + →__ until the cursor appears at the end of the `label` values
+8. Add a `comma` and a `space`
+9. Press the apostrophe key once. The cursor should now appear within 2 apostrophes ready for your input
+10. __CMD + V__ to paste the abbreviations
+
+Voilà! You've just performed a multi-line transformation that saved you keystrokes, energy, and most importantly __time__. This solution is scaleable. Imagine you're not updating 7 lines, but 70. You now have a solution to apply a composed transformation because you were able to recognize a pattern and a derived conversion of your code.
+
+## Text Editor Language Syntax
+
+Ready to comment a line of code? Rather than manually move your cursor to the beginning of the line, pressing the forward slash twice, and adding a space because it looks nicer, let your text editor do that for you.
+
+Go to your favorite text editor and look for a way to add syntax highlighting for your programming language of choice. Most of them will automatically come with common language syntax support. Pressing __SHIFT + /__ in most cases will automatically comment the active cursor line. No need to highlight the line, shift the cursor to the beginning, let the editor do that for you. Working on code with platform specific syntax? Like JSX or Typescript? Modern text editors should either come with syntax support out-of-the-box, or available with a plugin or extention.
+
+## Summary
+
+Each keystroke and movement needs to be as impactful as possible. Not only to save time, but to reduce developer wear and tear. Both mentally and physically. [What Does a Coder Do If They Can't Type?](https://nsaphra.github.io/post/hands/) has an incredible insight, go check it out.

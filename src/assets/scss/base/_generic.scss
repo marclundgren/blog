@@ -10,24 +10,6 @@ html {
   src: url('/static/fonts/HelveticaNeue-Regular.otf') format("opentype");
 }
 
-@font-face {
-  font-family: 'ComicNeue';
-  src: url('/static/fonts/comicneue-regular-webfont.woff2') format('woff2'),
-       url('/static/fonts/comicneue-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-@font-face {
-  font-family: 'Nunito';
-  src: url('/static/fonts/nunito-regular-webfont.woff2') format('woff2'),
-       url('/static/fonts/nunito-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
 body {
   margin: 0;
   font-family: $typographic-font-family;
