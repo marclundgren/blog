@@ -17,7 +17,7 @@ tags:
 
 Staying DRY while writing code is great and all, but there's much more to writing software than the code itself. At the time of writing this article, no nueral interface exists that will allow us conceptualize and compose software with telepathy, so we're forced to hammer away at our keyboards for now.
 
-![Typing and Coffee Are Great /s](/giphy.gif)
+![Typing and Coffee Are Great /s](/blog/giphy.gif)
 
 ## Repetition Reduction
 
@@ -50,7 +50,7 @@ Okay, My recommendation for all devlopers to increase productivity is going to s
 
 Situation: You're writing code on your 15inch laptop, so there's not much room for horizontal or vertical window stacking. You're currently editing a styles.css file for a website you're running locally from your terminal. You make a change and want to see what the site looks like after the update. Are you a point and clicker or a keyboard stroker?
 
-![expanding brain](/35xnjn.jpg)
+![expanding brain](/blog/35xnjn.jpg)
 
 Even better? Enable the use of a [live server](http://tapiov.net/live-server/) that will automaticaly reload after a file has changed, saving you from manually reloading a page. VS Code has a [live-server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) that I use frequently.
 
@@ -88,7 +88,7 @@ Whichever operating system you prefer, learn keyboard shortcuts. Challenge yours
 
 Once you've learned the basics of keyboard navigating around each of your most used apps, start learning keyboard shortcut actions. First check the help menu to see if an action already exists and if it has a keyboard shortcut.
 
-![vscode-go-to-file-shortcut.png](/vscode-go-to-file-shortcut.png)
+![vscode-go-to-file-shortcut.png](/blog/vscode-go-to-file-shortcut.png)
 
 The most important keybindings to learn for a code editor, in no particular order are:
 
@@ -125,43 +125,43 @@ One of the quickest ways to refactor a bunch of code you just wrote is to select
 
 Practice selecting mutliple lines with __SHIFT + ↓__ (and __SHIFT + ↑__ to unselect when you've gone too far).
 
-![shift-keyboard-down](/media/shift-keyboard-down.gif)
+![shift-keyboard-down](/blog/media/shift-keyboard-down.gif)
 
 ## Skipping Though Words
 
 If you haven't already, go ahead and max out your keyboard's "Key Repeat" settings to be as fast as possible, and "Delay Until Repeat" to be as short as possible. Part of increasing APM is to increase the overall keyboard throughput any way possible.
 
-![keyboard-go-fast](/media/keyboard-go-fast.png)
+![keyboard-go-fast](/blog/media/keyboard-go-fast.png)
 
 Now, compare navigating through words with your hot rod keyboard. Pretty fast, right? Sure, but you're still only in first gear.
 
-![keyboard-go-fast](/media/keyboard-go-fast.gif)
+![keyboard-go-fast](/blog/media/keyboard-go-fast.gif)
 
 Enter __OPTION + →__ and __OPTION + ←__
 
-![keyboard-go-fast](/media/keyboard-go-faster.gif)
+![keyboard-go-fast](/blog/media/keyboard-go-faster.gif)
 
 Now you're cooking with grease!
 
 Using __OPTION + →__ and __OPTION + ←__ the cursor will jump from the beginning of a word to the end, then to the beginning of the next word. This is the centerpeice of what makes a good multile line macro transformation. For now, just trust me and get used to using this shortcut over clicking your target or holding the arrow keys until you get to where you need to go.
 
-![option-arrow-horizontal](/media/option-arrow-horizontal.gif)
+![option-arrow-horizontal](/blog/media/option-arrow-horizontal.gif)
 
 Okay. Get ready for LUDICROUS SPEED!
 
 ## __CMD + →__ and __CMD + ←__
 
-![keyboard-go-LUDICROUS](/media/keyboard-go-LUDICROUS.gif)
+![keyboard-go-LUDICROUS](/blog/media/keyboard-go-LUDICROUS.gif)
 
 ## Moving and Shifting Blocks
 
 Using __OPTION + ↑__ and __OPTION + ↓__ a select line will shift upward and downward, respectively. This can be a much faster approach from deleting and rewriting code to appear in a certain order, and also faster than copy (cut), moving the cursor to the desired position and paste.
 
-![option-arrow-vertical](/media/option-arrow-vertical.gif)
+![option-arrow-vertical](/blog/media/option-arrow-vertical.gif)
 
 In combination with __SHIFT + ↓__, a selection can consist of a block of any size with multiple lines.
 
-![option-arrow-vertical-group](/media/option-arrow-horizontal-group.gif)
+![option-arrow-vertical-group](/blog/media/option-arrow-horizontal-group.gif)
 
 ## __CMD + D__
 
@@ -185,11 +185,11 @@ Suppose you'd like to refactor this block of code to add a new property to each 
 
 Rather than clicking or arrowing to each line, replacing each week day value with its capitalized version manually, consider using an editor plugin/macro for string transformation. Capitalization is a text transformation avaialble in the [TextTransform](https://marketplace.visualstudio.com/items?itemName=florianloch.text-transform) package. Once your editor of choice has a text-transform plugin installed, invoke it by selecting (highlighting) the word you'd like to capitalize. This can be done several ways. The slowest way is to drag your mouse precisely over every character in the word. A much faster shortcut is to double click the word (this works everywhere on os x computers e.g. text inputs, plain text, editors, websites). Using __shift + arrow directional keys__ is another way to move your cursor while selecting text. __CMD__ and __option__ are selection modifiers that you'll need to become aware of. More on that later. The fastest way to select a word without using your pointer is __Expand Selection__.
 
-![Expand Selection](/media/expand-selection.png)
+![Expand Selection](/blog/media/expand-selection.png)
 
 Next, bring up your command palette.
 
-![Command Palette](/media/command-pallete.png)
+![Command Palette](/blog/media/command-pallete.png)
 
 Begin to type __uppercase__. You won't need to type the full name of the command thanks to fuzzy matching. Try typing __tr upp__ which is short for __Transform To Uppercase__. You should always aim to type as little as possible to increase your APM. In other words, pretend you're a [StarCraft 2 player](https://www.youtube.com/watch?v=-yfMoIVTilo&feature=youtu.be&t=706) and your goal is to be as productive as possible by ensuring each keystroke's productivity is maximized.
 
@@ -206,11 +206,11 @@ Rather than selecting each day of the week, bringing up the command palette, app
 9. use a fuzzy search to run __text transform__
 10. press __ESC__ to clear the multiple cursors
 
-![Transform Uppercase](/media/transform-uppercase.gif)
+![Transform Uppercase](/blog/media/transform-uppercase.gif)
 
 Another transformation is adding a third property to each object in the array called `abbr` that can be derived from either the `value` or `label` properties.
 
-![abbr](/media/abbr.gif)
+![abbr](/blog/media/abbr.gif)
 
 ```js
 const calandarWeek = [
