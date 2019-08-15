@@ -1,9 +1,9 @@
 ---
-title: Effective DRY Techniques for all Developers
+title: Using code editors more efficiently
 date: "2019-08-10T10:38:00.000Z"
 template: "post"
 draft: false
-slug: "/posts/effective-dry-techniques-for-all-developers"
+slug: "/posts/using-code-editors-more-efficiently"
 category: "Productivity"
 description: "DRY techniques to increase your productivity while developing software."
 tags:
