@@ -1,6 +1,7 @@
 ---
 import { SITE_TITLE } from '../consts';
 import HeaderLink from './HeaderLink.astro';
+import ThemeSwitcher from './ThemeSwitcher.astro';
 ---
 
 <header>
@@ -10,6 +11,7 @@ import HeaderLink from './HeaderLink.astro';
 			<HeaderLink href={import.meta.env.BASE_URL}>Blog</HeaderLink>
 			<HeaderLink href={`${import.meta.env.BASE_URL}/about`}>About</HeaderLink>
 		</div>
+		<ThemeSwitcher />
 		<div class="social-links">
 			<a href="https://m.webtoo.ls/@astro" target="_blank">
 				<span class="sr-only">Follow Astro on Mastodon</span>
@@ -45,8 +47,8 @@ import HeaderLink from './HeaderLink.astro';
 	header {
 		margin: 0;
 		padding: 0 1em;
-		background: white;
-		box-shadow: 0 2px 8px rgba(var(--black), 5%);
+		background: rgb(var(--bg));
+		box-shadow: 0 2px 8px rgba(var(--gray), 15%);
 	}
 	h2 {
 		margin: 0;
