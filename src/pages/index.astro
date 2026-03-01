@@ -37,7 +37,11 @@ const posts = (await getCollection('blog')).sort(
 				transition: 0.2s ease;
 			}
 
-			ul li img {
+			ul li img,
+			ul li :global(.placeholder) {
+				width: 100%;
+				aspect-ratio: 2 / 1;
+				object-fit: cover;
 				margin-bottom: 0.5rem;
 				border-radius: 12px;
 			}
