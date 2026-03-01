@@ -21,20 +21,6 @@
 		0 16px 32px rgba(var(--gray), 33%);
 }
 
-/* ── Color themes ── */
-html[data-theme="ocean"] {
-	--accent: #0891b2;
-	--accent-dark: #0e7490;
-}
-html[data-theme="forest"] {
-	--accent: #16a34a;
-	--accent-dark: #15803d;
-}
-html[data-theme="rose"] {
-	--accent: #e11d48;
-	--accent-dark: #be123c;
-}
-
 /* ── Dark mode ── */
 html[data-scheme="dark"],
 html[data-scheme="auto"] {

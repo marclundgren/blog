@@ -21,9 +21,7 @@ const { title, description, image = FallbackImage } = Astro.props;
 <script is:inline>
 	(function () {
 		const scheme = localStorage.getItem('scheme') || 'auto';
-		const theme = localStorage.getItem('theme') || 'default';
 		document.documentElement.dataset.scheme = scheme;
-		document.documentElement.dataset.theme = theme;
 	})();
 </script>
 
