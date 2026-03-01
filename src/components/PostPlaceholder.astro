@@ -1,0 +1,46 @@
+---
+interface Props {
+	seed: string;
+}
+
+const { seed } = Astro.props;
+
+function hashString(str: string): number {
+	let hash = 0;
+	for (let i = 0; i < str.length; i++) {
+		hash = str.charCodeAt(i) + ((hash << 5) - hash);
+		hash |= 0;
+	}
+	return Math.abs(hash);
+}
+
+const h = hashString(seed);
+const hue1 = h % 360;
+const hue2 = (hue1 + 45) % 360;
+const gradId = `pg-${h}`;
+---
+
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	viewBox="0 0 720 360"
+	class="placeholder"
+	aria-hidden="true"
+>
+	<defs>
+		<linearGradient id={gradId} x1="0%" y1="0%" x2="100%" y2="100%">
+			<stop offset="0%" stop-color={`hsl(${hue1}, 65%, 55%)`} />
+			<stop offset="100%" stop-color={`hsl(${hue2}, 75%, 30%)`} />
+		</linearGradient>
+	</defs>
+	<rect width="720" height="360" fill={`url(#${gradId})`} />
+</svg>
+
+<style>
+	.placeholder {
+		width: 100%;
+		height: auto;
+		display: block;
+		border-radius: 8px;
+		margin-bottom: 0.5rem;
+	}
+</style>
