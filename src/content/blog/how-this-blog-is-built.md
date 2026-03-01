@@ -1,7 +1,7 @@
 ---
 title: 'How This Blog Is Built'
 description: 'The tools and process behind this site — including the AI that helped make it.'
-pubDate: 'Mar 01 2026'
+pubDate: 'Feb 20 2026'
 ---
 
 This blog runs on [Astro](https://astro.build), hosted on GitHub Pages. When I push to main, a GitHub Action builds the site and deploys it. Writing a post means dropping a markdown file into a folder and opening a pull request.
