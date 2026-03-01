@@ -25,7 +25,6 @@ import ThemeSwitcher from './ThemeSwitcher.astro';
 		margin: 0;
 		font-size: 1em;
 	}
-
 	h2 a,
 	h2 a.active {
 		text-decoration: none;
@@ -33,7 +32,17 @@ import ThemeSwitcher from './ThemeSwitcher.astro';
 	nav {
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+	}
+	h2 {
+		flex: 1;
+	}
+	.internal-links {
+		display: flex;
+	}
+	:global(.theme-switcher) {
+		flex: 1;
+		display: flex;
+		justify-content: flex-end;
 	}
 	nav a {
 		padding: 1em 0.5em;
