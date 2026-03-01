@@ -1,11 +1,11 @@
 ---
-title: 'How I Extended WiFi to My Reolink Doorbell Using a Raspberry Pi'
-description: 'Repurposing a Raspberry Pi as a dedicated WiFi access point to bridge a Reolink doorbell to an Orbi mesh network — including the full debugging session.'
+title: 'How I Extended WiFi to My Doorbell Camera Using a Raspberry Pi'
+description: 'Repurposing a Raspberry Pi as a dedicated WiFi access point to bridge a doorbell camera to an Orbi mesh network — including the full debugging session.'
 pubDate: 'Feb 28 2026'
 heroImage: '../../assets/Gemini_Generated_Image_il2ntuil2ntuil2n.png'
 ---
 
-My Orbi mesh network is great inside the house, but the satellites don't quite reach the front door where my Reolink doorbell lives. Rather than buying another expensive Orbi satellite just for one device, I repurposed a Raspberry Pi I had lying around as a dedicated WiFi access point — bridging the doorbell to my existing ORBI13 mesh network.
+My Orbi mesh network is great inside the house, but the satellites don't quite reach the front door where my [Reolink](https://reolink.com) doorbell camera lives. Rather than buying another expensive Orbi satellite just for one device, I repurposed a Raspberry Pi I had lying around as a dedicated WiFi access point — bridging the doorbell to my existing ORBI13 mesh network.
 
 This post covers the full setup and the debugging session that got it running reliably.
 
