@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx create-astro@latest:*)"
+      "Bash(npx create-astro@latest:*)",
+      "Bash(gh run:*)",
+      "Bash(npm run:*)"
     ]
   }
 }
