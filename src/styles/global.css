@@ -22,12 +22,16 @@
 }
 
 /* ── Dark mode ── */
-html[data-scheme="dark"],
-html[data-scheme="auto"] {
+html[data-scheme="dark"] {
 	color-scheme: dark;
 }
 html[data-scheme="light"] {
 	color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+	html[data-scheme="auto"] {
+		color-scheme: dark;
+	}
 }
 
 @media (prefers-color-scheme: dark) {
@@ -69,7 +73,8 @@ body {
 	padding: 0;
 	text-align: left;
 	background-color: rgb(var(--bg));
-	background: linear-gradient(var(--gray-gradient)) no-repeat;
+	background-image: linear-gradient(var(--gray-gradient));
+	background-repeat: no-repeat;
 	background-size: 100% 600px;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
