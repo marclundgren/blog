@@ -10,12 +10,12 @@ That setup didn't come from me knowing how to do any of that. I'm a frontend dev
 
 ## Why I Built This
 
-I've been doing projects like the doorbell one for a while — solving problems with hardware and infrastructure that I'd normally consider out of scope for a frontend developer. At some point I wanted a place to write them down, partly to have a reference for myself and partly to document what this kind of AI-assisted building actually looks like in practice.
+I've been doing projects like the doorbell one for a while — solving problems with hardware and infrastructure that would normally be out of scope for a frontend developer. At some point I wanted a place to write them down, partly to have a reference for myself and partly to document what this kind of AI-assisted building actually looks like in practice.
 
 I didn't want to deal with a CMS or a hosting service. I just wanted to write markdown and have it show up somewhere. So I described that to Claude and we built it.
 
-The whole thing took an afternoon. We picked Astro, scaffolded the project, wired up the deployment workflow, fixed a handful of routing issues that came from hosting at a subpath, and got it live. I made the decisions, Claude handled the parts I'd have spent days googling.
+The whole thing took an afternoon. We picked Astro, scaffolded the project, wired up the deployment workflow, fixed a handful of routing issues that came from hosting at a subpath, and got it live. I made the decisions, Claude handled the parts that would have taken days to figure out otherwise.
 
-That's the pattern for most of what's on this blog. I have a problem, I have some idea of what I want, and I use AI to fill in the gaps. It's not magic — I still have to understand what's happening well enough to know when something's wrong — but it lets me work on problems I'd normally just leave alone.
+That's the pattern for most of what's on this blog. I have a problem, I have some idea of what I want, and I use AI to fill in the gaps. It's not magic — I still have to understand what's happening well enough to know when something's wrong — but it lets me work on problems that would otherwise just stay broken.
 
 The writing works the same way. I'll dump out what I know about a project and work with Claude to shape it into something readable. The experience is mine. The polish has help.

@@ -5,13 +5,13 @@ pubDate: 'Jan 15 2026'
 heroImage: '../../assets/Gemini_Generated_Image_lkdde8lkdde8lkdd.png'
 ---
 
-I got tired of reaching for cloud storage every time I needed to move a file between machines, so I built my own. It's a web-based file server that runs in Docker on a home server — upload, browse, and download files from any device on the network, no app required.
+Reaching for cloud storage every time a file needed to move between machines was getting old, so I built my own. It's a web-based file server that runs in Docker on a home server — upload, browse, and download files from any device on the network, no app required.
 
 ---
 
 ## Why I Built This
 
-My files were scattered. Photos on one laptop, documents on another, things I wanted to grab from any device that I was either emailing to myself or hunting down on a USB drive. It was annoying in a low-grade way I'd been ignoring for a while.
+My files were scattered. Photos on one laptop, documents on another, things I wanted to grab from any device that I was either emailing to myself or hunting down on a USB drive. The friction was easy to ignore, but persistent.
 
 I didn't need cloud storage — I didn't want the sync complexity or the ongoing subscription for files that never need to leave my house. I just needed one place on the local network I could drop things and pick them up elsewhere.
 
@@ -57,7 +57,7 @@ Data is stored in a mounted volume so files survive container restarts. Plugins 
 
 ## The Plugin System
 
-This is the part I didn't expect to be there. The server exposes a hook-based plugin architecture with hooks at every meaningful point in the file lifecycle:
+The server exposes a hook-based plugin architecture with hooks at every meaningful point in the file lifecycle:
 
 `beforeUpload`, `afterUpload`, `beforeDownload`, `afterDownload`, `beforeDelete`, `afterDelete`, `transformFileList`
 
@@ -71,7 +71,7 @@ Two plugins ship with it:
 {"timestamp":"2025-02-21T11:19:00.000Z","action":"upload","filename":"photo.jpg","size":933570}
 ```
 
-This came from describing the project to Claude. I asked for a simple file server and it suggested building a plugin architecture to keep the core clean and extensible. I went with it because it made sense and I didn't have to design it myself — which is kind of the point.
+This came from describing the project to Claude. I asked for a simple file server and it suggested building a plugin architecture to keep the core clean and extensible. It made sense architecturally, and not having to design it from scratch is kind of the point.
 
 ---
 
@@ -89,4 +89,4 @@ For anything beyond a home network: add authentication, use HTTPS, add rate limi
 
 ## What I Actually Use It For
 
-The NAS has documents, photos, and various files in it now. It replaced the "just throw it in Dropbox" habit for anything that doesn't need to leave the local network. The audit log has already come in handy once — I wasn't sure if a file had been accidentally deleted and checking the log settled it immediately. Didn't expect to need that feature so soon.
+The NAS has documents, photos, and various files in it now. It replaced the "just throw it in Dropbox" habit for anything that doesn't need to leave the local network.

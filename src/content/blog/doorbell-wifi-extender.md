@@ -5,7 +5,7 @@ pubDate: 'Feb 28 2026'
 heroImage: '../../assets/Gemini_Generated_Image_il2ntuil2ntuil2n.png'
 ---
 
-My Orbi mesh network is great inside the house, but the satellites don't quite reach the front door where my [Reolink](https://reolink.com) doorbell camera lives. Rather than buying another expensive Orbi satellite just for one device, I repurposed a Raspberry Pi I had lying around as a dedicated WiFi access point — bridging the doorbell to my existing ORBI13 mesh network.
+The Orbi mesh covers the house well, but the satellites don't quite reach the front door where my [Reolink](https://reolink.com) doorbell camera lives. Rather than buying another expensive Orbi satellite just for one device, I repurposed a Raspberry Pi I had lying around as a dedicated WiFi access point — bridging the doorbell to my existing ORBI13 mesh network.
 
 This post covers the full setup and the debugging session that got it running reliably.
 
@@ -15,7 +15,7 @@ This post covers the full setup and the debugging session that got it running re
 
 My Orbi mesh covers most of the house fine, but the front door sits in a dead zone. The doorbell camera needs a solid WiFi connection to stream video and send alerts — without it, notifications are delayed or missing entirely.
 
-The obvious fix was another Orbi satellite, but they're expensive and I only needed coverage for one device a few feet outside the current range. I had a Raspberry Pi sitting unused and figured it could act as a cheap, dedicated bridge. It's the kind of problem I'd normally avoid — networking, Linux services, iptables — but with AI helping me navigate the unfamiliar parts, it seemed worth trying.
+The obvious fix was another Orbi satellite, but they're expensive and I only needed coverage for one device a few feet outside the current range. I had a Raspberry Pi sitting unused and figured it could act as a cheap, dedicated bridge. Networking, Linux services, and iptables aren't familiar territory — but with AI helping navigate those parts, the scope felt manageable.
 
 ---
 
